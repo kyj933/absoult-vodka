@@ -388,11 +388,11 @@ a span:after {
 .contents .s_drink .sd_dg .drink_rt { float: right; width:50%;}
 
 .contents .s_drink .sd_dg .drink_lt .drink_logo {
-	margin-top: 210px; padding-left: 250px; text-align: center;
+	margin-top: 210px; padding-left: 0; text-align: center;
 }
 
 .contents .s_drink .sd_dg .drink_rt .drink_sub { 
-	width: 682px; height: 700px;
+	height: 700px;
 }
 .contents .s_drink .sd_dg .drink_rt .drink_sub > li { 
 	width:682px; height: 345px; position: relative;
