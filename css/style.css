@@ -40,13 +40,7 @@ header {
 .vo_box.lt .vodka_set > li:nth-child(4) {transform: scale(.7)}
 .vo_box.lt .vodka_set > li:nth-child(5) {transform: scale(.6)}
 
-/*
-.vo_box.lt .vodka_set > li:nth-child(1) {left:0; transform: scale(1); z-index: 5}
-.vo_box.lt .vodka_set > li:nth-child(2) {left:80px; transform: scale(.9); z-index: 4}
-.vo_box.lt .vodka_set > li:nth-child(3) {left:160px; transform: scale(.8); z-index: 3} 
-.vo_box.lt .vodka_set > li:nth-child(4) {left:240px; transform: scale(.7); z-index: 2}
-.vo_box.lt .vodka_set > li:nth-child(5) {left:300px; transform: scale(.6); z-index: 1}
-*/
+
 
 /*
 돌때마다 각 li의 left값이 80px만큼 감소 한다, sclae은 0.1씩 증가한다 z-index는 1씩 증가한다
@@ -203,30 +197,6 @@ visibility: hidden; opacity: 0;
 	background-position: -1200px 0;
 	
 }
-/*
-.vo_box.lt .vodka_set > li:nth-child(1) {z-index: 5; background:#f00}
-.vo_box.lt .vodka_set > li:nth-child(2) {z-index: 4; background:orange}
-.vo_box.lt .vodka_set > li:nth-child(3) {z-index: 3; background:yellow}
-.vo_box.lt .vodka_set > li:nth-child(4) {z-index: 2; background:green}
-.vo_box.lt .vodka_set > li:nth-child(5) {z-index: 1; background:blue}
-*/
-
-/*
-.vo_box.lt .vodka_set > li:nth-child(5) {
-	transform:translate(200px, 5px) scale(.6)
-}
-
-.vo_box.lt .vodka_set > li:nth-child(4) {
-	transform:translate(160px, 5px) scale(.7)
-}
-.vo_box.lt .vodka_set > li:nth-child(3) {
-	transform:translate(120px, 5px) scale(.8)
-}
-
-.vo_box.lt .vodka_set > li:nth-child(2) {
-transform:translate(70px, 5px) scale(.9)
-}
-*/
 
 .vo_box.rt { 
 	display: block;
@@ -234,33 +204,6 @@ transform:translate(70px, 5px) scale(.9)
 .vo_box.rt > img { 
 	padding: 25vh 0 0 2vw;
 }
-/*
-.vo_box.rt .stxt { 
-	height:360px; position:relative; 
-	top: 175px; left: 0; right: 0; bottom: 0; z-index: 1;
-}
-
-
-.vo_box.rt .stxt > li { 
-	width:100%;
-	height:100%;
-	position:absolute; display: block;
-}
-
-.vo_box.rt .stxt > li .title { 
-	width: 670px; height: 360px; padding-top: 388px;
-	background: url('../img/vodka_title03.png') no-repeat 0 0;
-	position:absolute; display:block; 
-	background-size:auto 360px; margin:0 auto; 
-}
-
-.vo_box.rt .stxt > li .title.ty1 { background-position: 0 0;}
-.vo_box.rt .stxt > li .title.ty2 { background-position: -670px 0;}
-.vo_box.rt .stxt > li .title.ty3 { background-position: -1340px 0;}
-.vo_box.rt .stxt > li .title.ty4 { background-position: -2010px 0}
-.vo_box.rt .stxt > li .title.ty5 { background-position: -2680px 0;}
-
-.vo_box.rt .stxt > li ~ li .title { visibility:hidden;}*/
 
 /*********  타이틀 바꾸기 *********/
 
